@@ -1,7 +1,8 @@
 export default function shoppingListItemReducer(state = {
   items: [], 
   users: [ 'initial user' ]
-}, action) {
+}, 
+  action) {
 
   switch(action.type) {
 
